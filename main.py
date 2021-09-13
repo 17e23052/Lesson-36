@@ -5,7 +5,7 @@ game = {"character": "Harry" ,
 print("Character:", game["character"])
 print("Setting:", game["setting"])
 print("Task:", game["task"])
-print()
+print() 
  
 game["character"] = "Lola"
 game["setting"] = "The City"
