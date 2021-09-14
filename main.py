@@ -27,16 +27,16 @@ not_done = True
 while not_done:
   print("Which attribute would you like to see?")
   attribute = input()
-  if attribute == "username":
+  if attribute == "0":
     not_done = False
     print(username)
-  elif attribute == "password":
+  elif attribute == "1":
     not_done = False
     print(password)
-  elif attribute == "score":
+  elif attribute == "2":
     not_done = False
     print(score)
-  elif attribute == "highscore":
+  elif attribute == "3":
     not_done = False
     print(highscore)
   else:
