@@ -23,5 +23,21 @@ while add_players:
     if answer == "N":
         add_players = False
 
-print(players)
-print(password)
+not_done = True
+while not_done:
+  print("Which attribute would you like to see?")
+  attribute = input()
+  if attribute == "username":
+    not_done = False
+    print(username)
+  elif attribute == "password":
+    not_done = False
+    print(password)
+  elif attribute == "score":
+    not_done = False
+    print(score)
+  elif attribute == "highscore":
+    not_done = False
+    print(highscore)
+  else:
+    print("Invalid input. Please input a valid attribute:")
