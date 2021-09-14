@@ -24,3 +24,4 @@ while add_players:
         add_players = False
 
 print(players)
+print(username)
